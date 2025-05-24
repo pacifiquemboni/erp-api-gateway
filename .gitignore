@@ -1,0 +1,30 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+
+# Build output
+dist/
+build/
+
+# IDE files
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+config.bat
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json

@@ -1,0 +1,38 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "tsc && node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "http-proxy-middleware": "^3.0.3",
+    "kafka-node": "^5.0.0",
+    "kafkajs": "^2.2.4",
+    "keycloak-connect": "^26.1.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.1",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
